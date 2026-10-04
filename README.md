@@ -173,7 +173,7 @@ A tecnologia utilizada para apresentação foi apenas uma das etapas da soluçã
 O painel desenvolvido para o case pode ser acessado abaixo:
 
 **Dashboard online:**  
-`INSIRA_AQUI_O_LINK_DO_GITHUB_PAGES`
+`https://johnerik63.github.io/Painel-Executivo-de-Vulnerabilidades/`
 
 ---
 
