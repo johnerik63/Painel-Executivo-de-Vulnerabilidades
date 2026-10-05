@@ -105,7 +105,7 @@ const QA=[
 {id:"hom",label:"Homologação",apply:()=>{sel.amb=new Set(["Homologação"])}},
 {id:"dev",label:"Desenvolvimento",apply:()=>{sel.amb=new Set(["Desenvolvimento"])}},
 ];
-let tableState={sort:"sev",dir:-1,page:1,size:12,q:""},CURRENT_ROWS=[],assetFocus=null,rankState={limit:10,sort:"score"},KPI_PREV={};
+let tableState={sort:"sev",dir:-1,page:1,size:12,q:""},CURRENT_ROWS=[],assetFocus=null,rankState={limit:5,sort:"score"},KPI_PREV={};
 const FL=[["amb","Ambiente"],["sev","Severidade"],["st","Status da vulnerabilidade"],["cr","Criticidade do ativo"],["sa","Status do ativo"],["org","Origem"],["dom","Domínio"]],sel={},FVAL={};
 FL.forEach(([k])=>{FVAL[k]=[...new Set(D.map(d=>d[k]))].sort();sel[k]=new Set(FVAL[k])});
 const eh=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
